@@ -24,12 +24,6 @@
     align-content: center;
     padding-top: 10px;
 }
-.foryou{
-    background-color: #d0d8fc;
-    width: 35%;
-}
-.dashbording{
-    width: 30px;
-    padding-left: 700px;
-    padding-bottom: 150px;
+body{
+    overflow-x: hidden;
 }
