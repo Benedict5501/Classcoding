@@ -27,3 +27,65 @@
 body{
     overflow-x: hidden;
 }
+.anima{
+    border: none;
+    padding: 10px 1px;
+    color: #1b1642;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.anima:hover {
+    background-color: #d0d8fc;
+    transition: 0.5;
+}
+.koroko{
+    background-color: #0c0a47;
+    border: none;
+    font-weight: 700;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+.koroko:hover {
+    background-color: orange;
+    transition: 0.5s;
+}
+.halk{
+    background-color: #f5f7ff;
+}
+.pete{
+    background-color: #d0d8fc;
+    width: 200px;
+    padding: 8px;
+    font-size: 14px;
+}
+.jack{
+    color: #1b1642;
+    font-size: 50px;
+}
+.terry{
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* small screen */
+@media screen  and (max-width:475) {
+    .muyuwa{
+        width: 200px;
+    }
+}
