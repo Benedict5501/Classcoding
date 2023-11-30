@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-color: #f7f8ff;
+    color: #454272;
+}
+.door button{
+    background-color: #0e0a47;
+    color: white;
+    padding: 12px;
+}
+.sam ul li{
+    padding: 0 15px;
+}
+.navbar{
+    justify-content: center;
+    align-content: center;
+}
+.door a{
+    align-content: center;
+    padding-top: 10px;
+}
+.foryou{
+    background-color: #d0d8fc;
+    width: 35%;
+}
+.dashbording{
+    width: 30px;
+    padding-left: 700px;
+    padding-bottom: 150px;
+}
