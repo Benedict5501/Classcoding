@@ -67,6 +67,84 @@ body{
 .terry{
     font-size: 23px;
 }
+.blue{
+    color: #33396f;
+}
+.button2{
+    background-color: #0e0a47;
+    color: white;
+    padding: 0.8rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s ease;
+}
+.button2:hover{
+    background-color: #fe9a03;
+}
+.bigButton2{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0e0a47;
+    color: white;
+    font-size: 13px;
+}
+.bigButton2{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0e0a47;
+    color: white;
+    font-size: 13px;
+}
+.bigButton1 {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #33396f;
+    font-size: 13px;
+}
+.bigButton1:hover{
+    background-color: #0e0a47;
+    color: white;
+}
+.edozzierContainer2{
+    margin-top: 100px;
+    background-color: #e5ebfb;
+    padding-top: 130px;
+   padding-bottom: 50px;
+   padding-left: 40px;
+    padding-right: 40px;
+}
+.links{
+    margin-left: -40px;
+   
+}
+.smart{
+    font-family: "DM Sans", sans-serif;
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 44px;
+    color: rgb(27, 22, 66)
+}
+.solution{
+    font-family: "DM Sans", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 44px;
+    color: rgb(27, 22, 66)
+}
+.signUp{
+    display: none;
+}
+
+
+
 
 
 
@@ -84,8 +162,40 @@ body{
 
 
 /* small screen */
-@media screen  and (max-width:475) {
+@media only screen and (max-width: 475px) {
+    .edozImg{
+        justify-content: center;
+        align-items: center;
+        max-width: 50%;
+    }
+    .anime{
+        display: none;
+    }
+    .edozHere{
+        width: 100%;
+    }
+    .div1{
+        margin-bottom: 35px;
+    }
+    .button1{
+        margin-bottom: 20px;
+    }
+    .cards{
+        justify-content: center;
+        align-items: center;
+    }
     .muyuwa{
-        width: 200px;
+        width: 300px;
+        padding-top: 20px;
     }
 }
+
+/* @media only screen and (max-width: 992px) {
+    .signUp{
+        display: block;
+    }
+}
+
+#navbarSupportedContent{
+    margin-left: 100px;
+} */
